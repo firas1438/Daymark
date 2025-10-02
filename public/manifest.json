@@ -1,0 +1,32 @@
+{
+  "name": "Daymark",
+  "description": "Track the public holidays of any country worldwide",
+  "version": "1.0",
+  "manifest_version": 3, 
+  "host_permissions": ["https://public-holidays7.p.rapidapi.com/*"],
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "action": {
+    "default_popup": "./index.html",
+    "default_icon": {
+      "16": "./images/16.png",
+      "24": "./images/24.png",
+      "32": "./images/32.png",
+      "64": "./images/64.png",
+      "128": "./images/128.png",
+      "256": "./images/256.png",
+      "512": "./images/512.png"
+    },
+    "default_title": "Daymark - Public Holiday Tracker"
+  },
+  "icons": {
+      "16": "./images/16.png",
+      "24": "./images/24.png",
+      "32": "./images/32.png",
+      "64": "./images/64.png",
+      "128": "./images/128.png",
+      "256": "./images/256.png",
+      "512": "./images/512.png"
+  }
+}
